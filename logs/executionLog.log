@@ -1,0 +1,8 @@
+[2019-12-23T23:59:37.426] [INFO] myApp - INFO Element Found
+[2019-12-23T23:59:37.623] [INFO] myApp - PASS Enter 4 in first Name
+[2019-12-24T00:00:57.204] [INFO] myApp - INFO Element Found
+[2019-12-24T00:00:57.351] [INFO] myApp - PASS Enter 4 in first Name
+[2019-12-24T00:00:57.392] [INFO] myApp - INFO Element Found
+[2019-12-24T00:00:57.499] [INFO] myApp - PASS Enter 5 in last Name
+[2019-12-24T00:00:57.552] [INFO] myApp - INFO Element Found
+[2019-12-24T00:00:58.040] [INFO] myApp - PASS Click on Add  button
