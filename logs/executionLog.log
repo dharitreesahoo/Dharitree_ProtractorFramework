@@ -6,3 +6,15 @@
 [2019-12-24T00:00:57.499] [INFO] myApp - PASS Enter 5 in last Name
 [2019-12-24T00:00:57.552] [INFO] myApp - INFO Element Found
 [2019-12-24T00:00:58.040] [INFO] myApp - PASS Click on Add  button
+[2019-12-24T09:25:05.426] [INFO] myApp - INFO Element Found
+[2019-12-24T09:25:05.537] [INFO] myApp - PASS Enter 4 in first Name
+[2019-12-24T09:25:05.580] [INFO] myApp - INFO Element Found
+[2019-12-24T09:25:05.695] [INFO] myApp - PASS Enter 5 in last Name
+[2019-12-24T09:25:05.753] [INFO] myApp - INFO Element Found
+[2019-12-24T09:25:06.084] [INFO] myApp - PASS Click on Add  button
+[2019-12-24T09:25:07.946] [INFO] myApp - INFO Element Found
+[2019-12-24T09:25:08.013] [INFO] myApp - PASS Enter 4 in first Name
+[2019-12-24T09:25:08.047] [INFO] myApp - INFO Element Found
+[2019-12-24T09:25:08.105] [INFO] myApp - PASS Enter 5 in last Name
+[2019-12-24T09:25:08.144] [INFO] myApp - INFO Element Found
+[2019-12-24T09:25:08.237] [INFO] myApp - PASS Click on Add  button

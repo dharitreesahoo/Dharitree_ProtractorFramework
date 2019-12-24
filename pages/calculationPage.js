@@ -5,10 +5,10 @@ class calculation{
         this.button = element(by.id('gobutton'))
         
     }
-    calculations(){
+    calculations(data){
         console.log('entered=========');
-        bActions.type( this.firstTextBox,'4','Enter 4 in first Name');
-        bActions.type(this.secondTextBox,'5','Enter 5 in last Name');
+        bActions.type( this.firstTextBox,data.firstNumber,'Enter 4 in first Name');
+        bActions.type(this.secondTextBox,data.secondNumber,'Enter 5 in last Name');
         bActions.clickOn(this.button,'Click on Add  button');
         
     }
