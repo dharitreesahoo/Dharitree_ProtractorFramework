@@ -19,7 +19,7 @@
    
     "pretest":"rm -rf allure-report",
     "test":"protractor conf.js||true",
-    "posttest": "allure serve generate allure-results --clean -o allure-report ||true",
+    "posttest": "allure generate allure-results --clean -o allure-report ||true",
     "webdriver-update": "webdriver-manager update",
     "postinstall": "node_modules/protractor/bin/webdriver-manager update"
 

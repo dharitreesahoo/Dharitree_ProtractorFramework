@@ -1,0 +1,44 @@
+{
+  "uid" : "e2294f4cfdeb3909",
+  "name" : "Display the price based on the item",
+  "fullName" : "Protractor Demo App.Display the price based on the item",
+  "historyId" : "c9701ce488377ecd5840d3708d15e80e",
+  "time" : {
+    "start" : 1577293635100,
+    "stop" : 0,
+    "duration" : -1577293635100
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Protractor Demo App"
+  }, {
+    "name" : "testClass",
+    "value" : "Protractor Demo App"
+  }, {
+    "name" : "testMethod",
+    "value" : "Display the price based on the item"
+  }, {
+    "name" : "package",
+    "value" : "Protractor Demo App"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e2294f4cfdeb3909.json",
+  "parameterValues" : [ ]
+}

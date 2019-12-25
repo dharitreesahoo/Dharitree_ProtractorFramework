@@ -12,7 +12,7 @@ exports.config = {
 
   // Spec patterns are relative to the current working directory when
   // protractor is called.
-  specs: ['specs/calculation_dataProviderEx.js'],
+  specs: ['specs/Example1.js'],
   seleniumAddress: 'http://localhost:4444/wd/hub',
   chromeDriver: './resources/chromedriver_75.0.3770.80.exe',
 
@@ -41,11 +41,11 @@ exports.config = {
     //HTML report protractor-jasmine2-html-reporter
     var Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
     jasmine.getEnv().addReporter(new Jasmine2HtmlReporter({
-        savePath: 'result',
+        savePath: 'html_report',
         screenshotsFolder: 'images',
         takeScreenshots: true,
         takeScreenshotsOnlyOnFailures: true,
-        fileNamePrefix: 'Demo_MayBatch',
+        fileNamePrefix: 'CalculatorReport',
         consolidate: true,
         consolidateAll: true
     }));
@@ -81,7 +81,6 @@ exports.config = {
 
    
     ///XML report 
-
     var jasmineReporters = require('jasmine-reporters');
     jasmine.getEnv().addReporter(new jasmineReporters.JUnitXmlReporter({
         consolidateAll: true,

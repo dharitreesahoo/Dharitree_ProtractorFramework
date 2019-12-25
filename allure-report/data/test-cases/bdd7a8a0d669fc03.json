@@ -1,0 +1,60 @@
+{
+  "uid" : "bdd7a8a0d669fc03",
+  "name" : "add two numbers ",
+  "fullName" : "EndToEndFlow.add two numbers ",
+  "historyId" : "f3fea5419f9e287b111d7f491a6ad3bd",
+  "time" : {
+    "start" : 1577240952971,
+    "stop" : 1577240955400,
+    "duration" : 2429
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4ae23d5551dc1d1d",
+      "name" : "Screenshot",
+      "source" : "4ae23d5551dc1d1d.png",
+      "type" : "image/png",
+      "size" : 13405
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "EndToEndFlow"
+  }, {
+    "name" : "testClass",
+    "value" : "EndToEndFlow"
+  }, {
+    "name" : "testMethod",
+    "value" : "add two numbers "
+  }, {
+    "name" : "package",
+    "value" : "EndToEndFlow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bdd7a8a0d669fc03.json",
+  "parameterValues" : [ ]
+}

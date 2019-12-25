@@ -1,0 +1,65 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "EndToEndFlow",
+    "children" : [ {
+      "name" : "add two numbers ",
+      "uid" : "2279629ea9e3f73f",
+      "parentUid" : "3f785f2faf1f6540d1365349e12f792c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577293179673,
+        "stop" : 1577293181363,
+        "duration" : 1690
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "multiply two numbers ",
+      "uid" : "10cb6c12dca88536",
+      "parentUid" : "3f785f2faf1f6540d1365349e12f792c",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1577293181364,
+        "stop" : 0,
+        "duration" : -1577293181364
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3f785f2faf1f6540d1365349e12f792c"
+  }, {
+    "name" : "Protractor Demo App",
+    "children" : [ {
+      "name" : "should have a title",
+      "uid" : "39054c53074d7a01",
+      "parentUid" : "691963a8a99bc2a297d5edb18750172a",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1577293905710,
+        "stop" : 0,
+        "duration" : -1577293905710
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Display the price based on the item",
+      "uid" : "9dfbe077903350a8",
+      "parentUid" : "691963a8a99bc2a297d5edb18750172a",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1577293915454,
+        "stop" : 0,
+        "duration" : -1577293915454
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "691963a8a99bc2a297d5edb18750172a"
+  } ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "aae4a53039356d10",
+  "name" : "should have a title",
+  "fullName" : "Protractor Demo App.should have a title",
+  "historyId" : "6e29ec7a9862640c94cb67b4be9e6cb3",
+  "time" : {
+    "start" : 1577293620254,
+    "stop" : 1577293624208,
+    "duration" : 3954
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f7e7a30fe1200873",
+      "name" : "Screenshot",
+      "source" : "f7e7a30fe1200873.png",
+      "type" : "image/png",
+      "size" : 242134
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Protractor Demo App"
+  }, {
+    "name" : "testClass",
+    "value" : "Protractor Demo App"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have a title"
+  }, {
+    "name" : "package",
+    "value" : "Protractor Demo App"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aae4a53039356d10.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "c43561942b2a4e62",
+  "name" : "multiply two numbers ",
+  "fullName" : "EndToEndFlow.multiply two numbers ",
+  "historyId" : "50e01b8f9e1d0471e611c457f2296589",
+  "time" : {
+    "start" : 1577251806784,
+    "stop" : 1577251809361,
+    "duration" : 2577
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d9234fe56c3b8591",
+      "name" : "Screenshot",
+      "source" : "d9234fe56c3b8591.png",
+      "type" : "image/png",
+      "size" : 16106
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "EndToEndFlow"
+  }, {
+    "name" : "testClass",
+    "value" : "EndToEndFlow"
+  }, {
+    "name" : "testMethod",
+    "value" : "multiply two numbers "
+  }, {
+    "name" : "package",
+    "value" : "EndToEndFlow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c43561942b2a4e62.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "3de647d28b58ae2a",
+  "name" : "Display the price based on the item",
+  "fullName" : "Protractor Demo App.Display the price based on the item",
+  "historyId" : "c9701ce488377ecd5840d3708d15e80e",
+  "time" : {
+    "start" : 1577293915454,
+    "stop" : 1577293929626,
+    "duration" : 14172
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "43645f94a8113d89",
+      "name" : "Screenshot",
+      "source" : "43645f94a8113d89.png",
+      "type" : "image/png",
+      "size" : 73794
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Protractor Demo App"
+  }, {
+    "name" : "testClass",
+    "value" : "Protractor Demo App"
+  }, {
+    "name" : "testMethod",
+    "value" : "Display the price based on the item"
+  }, {
+    "name" : "package",
+    "value" : "Protractor Demo App"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3de647d28b58ae2a.json",
+  "parameterValues" : [ ]
+}
