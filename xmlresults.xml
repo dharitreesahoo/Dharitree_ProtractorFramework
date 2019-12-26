@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="3" time="26.416">
- <testsuite name="Protractor Demo App" timestamp="2019-12-25T22:41:43" hostname="localhost" time="26.416" errors="0" tests="3" skipped="0" disabled="0" failures="0">
-  <testcase classname="Protractor Demo App" name="should have a title" time="2.481" />
-  <testcase classname="Protractor Demo App" name="should have a title" time="9.743" />
-  <testcase classname="Protractor Demo App" name="Display the price based on the item" time="14.172" />
+<testsuites disabled="2" errors="0" failures="0" tests="7" time="12.523">
+ <testsuite name="EndToEndFlow" timestamp="2019-12-26T11:40:24" hostname="localhost" time="12.523" errors="0" tests="7" skipped="0" disabled="2" failures="0">
+  <testcase classname="EndToEndFlow" name="add two numbers for a set of numbers " time="1.893" />
+  <testcase classname="EndToEndFlow" name="add two numbers for a set of numbers " time="2.288" />
+  <testcase classname="EndToEndFlow" name="add two numbers for a set of numbers " time="2.466" />
+  <testcase classname="EndToEndFlow" name="add two numbers for a set of numbers " time="2.794" />
+  <testcase classname="EndToEndFlow" name="get 3rd column value and sum it " time="1.919" />
+  <testcase classname="EndToEndFlow" name="get all the values from webtable " time="0.002">
+   <skipped />
+  </testcase>
+  <testcase classname="EndToEndFlow" name="get 3rd column values " time="0.002">
+   <skipped />
+  </testcase>
  </testsuite>
 </testsuites>

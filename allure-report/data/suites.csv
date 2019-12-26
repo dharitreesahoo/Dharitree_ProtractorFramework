@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Dec 25 22:29:39 IST 2019","Wed Dec 25 22:29:41 IST 2019","1690","","EndToEndFlow","","EndToEndFlow","add two numbers ","add two numbers ",""
-"unknown","Wed Dec 25 22:41:45 IST 2019","Thu Jan 01 05:30:00 IST 1970","-1577293905710","","Protractor Demo App","","Protractor Demo App","should have a title","should have a title",""
-"unknown","Wed Dec 25 22:29:41 IST 2019","Thu Jan 01 05:30:00 IST 1970","-1577293181364","","EndToEndFlow","","EndToEndFlow","multiply two numbers ","multiply two numbers ",""
-"unknown","Wed Dec 25 22:41:55 IST 2019","Thu Jan 01 05:30:00 IST 1970","-1577293915454","","Protractor Demo App","","Protractor Demo App","Display the price based on the item","Display the price based on the item",""

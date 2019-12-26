@@ -12,7 +12,7 @@ exports.config = {
 
   // Spec patterns are relative to the current working directory when
   // protractor is called.
-  specs: ['specs/Example1.js'],
+  specs: ['specs/calculation_webtable.js'],
   seleniumAddress: 'http://localhost:4444/wd/hub',
   chromeDriver: './resources/chromedriver_75.0.3770.80.exe',
 

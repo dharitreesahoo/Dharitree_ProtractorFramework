@@ -119,6 +119,7 @@ describe('Protractor Demo App', function () {
         }
         else {
           expect(true).toBe(true);
+          //add
         }
       })
     });
