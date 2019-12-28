@@ -25,7 +25,7 @@ describe('EndToEndFlow', function () {
     });
 
     dataProvider(testData, function (data) {
-       fit('add two numbers for a set of numbers ', function () {
+        fit('add two numbers for a set of numbers ', function () {
             calculatePage.calculationsAdd(data);
         });
     });
@@ -51,18 +51,34 @@ describe('EndToEndFlow', function () {
             let cell = row.$$('td');
             cell.get(2).getText().then(function (cellVal) {
                 console.log("cell values are " + cellVal);
-                 });
+            });
         });
     });
-    fit('get 3rd column value and sum it ', function () {
-        var expectedCells = element.all(by.css('.table tr td:nth-of-type(2)'));
+    it('get 3rd column value and sum it ', function () {
+        var expectedCells = element.all(by.css('.table tr td:nth-of-type(3)'));
         var currentSum = 0;
         expectedCells.each((eachCell) => {
             eachCell.getText().then((cellText) => {
                 currentSum += parseInt(cellText);
+                console.log("number are" + cellText);
             });
         }).then(() => {
-            expect(currentSum).toEqual(26);
+            expect(currentSum).toEqual(45);
+        });
+    });
+    fit('add the number greater than 10 ', function () {
+        var expectedCells = element.all(by.css('.table tr td:nth-of-type(3)'));
+        var currentSum = 0;
+        expectedCells.each((eachCell) => {
+            eachCell.getText().then((cellText) => {
+                console.log("number is"+parseInt(cellText));
+                if (parseInt(cellText) > 10) {
+
+                    currentSum += parseInt(cellText);
+                }
+            });
+        }).then(() => {
+            expect(currentSum).toEqual(28);
         });
     });
 });
