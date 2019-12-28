@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="3" errors="0" failures="0" tests="8" time="11.592">
- <testsuite name="EndToEndFlow" timestamp="2019-12-28T20:15:45" hostname="localhost" time="11.592" errors="0" tests="8" skipped="0" disabled="3" failures="0">
-  <testcase classname="EndToEndFlow" name="add two numbers for a set of numbers " time="1.359" />
-  <testcase classname="EndToEndFlow" name="add two numbers for a set of numbers " time="1.941" />
-  <testcase classname="EndToEndFlow" name="add two numbers for a set of numbers " time="2.292" />
-  <testcase classname="EndToEndFlow" name="add two numbers for a set of numbers " time="2.213" />
-  <testcase classname="EndToEndFlow" name="add the number greater than 10 " time="2.139" />
-  <testcase classname="EndToEndFlow" name="get all the values from webtable " time="0.001">
+<testsuites disabled="3" errors="0" failures="0" tests="9" time="14.438">
+ <testsuite name="EndToEndFlow" timestamp="2019-12-28T21:35:21" hostname="localhost" time="14.438" errors="0" tests="9" skipped="0" disabled="3" failures="0">
+  <testcase classname="EndToEndFlow" name="add two numbers for a set of numbers " time="1.246" />
+  <testcase classname="EndToEndFlow" name="add two numbers for a set of numbers " time="2.023" />
+  <testcase classname="EndToEndFlow" name="add two numbers for a set of numbers " time="2.41" />
+  <testcase classname="EndToEndFlow" name="add two numbers for a set of numbers " time="2.191" />
+  <testcase classname="EndToEndFlow" name="add the number greater than 10 " time="2.061" />
+  <testcase classname="EndToEndFlow" name="delete row in webtable" time="2.916" />
+  <testcase classname="EndToEndFlow" name="get all the values from webtable " time="0.002">
    <skipped />
   </testcase>
-  <testcase classname="EndToEndFlow" name="get 3rd column values " time="0.002">
+  <testcase classname="EndToEndFlow" name="get 3rd column values " time="0.001">
    <skipped />
   </testcase>
   <testcase classname="EndToEndFlow" name="get 3rd column value and sum it " time="0.001">

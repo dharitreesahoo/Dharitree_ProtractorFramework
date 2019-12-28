@@ -71,7 +71,7 @@ describe('EndToEndFlow', function () {
         var currentSum = 0;
         expectedCells.each((eachCell) => {
             eachCell.getText().then((cellText) => {
-                console.log("number is"+parseInt(cellText));
+                console.log("number is" + parseInt(cellText));
                 if (parseInt(cellText) > 10) {
 
                     currentSum += parseInt(cellText);
@@ -80,5 +80,21 @@ describe('EndToEndFlow', function () {
         }).then(() => {
             expect(currentSum).toEqual(28);
         });
+    });
+    fit('delete row in webtable', function () {
+        let rows = element.all(by.repeater('result in memory'));
+        browser.sleep(2000);
+        rows.each(function (row) {
+            let cell = row.$$('td');
+            cell.get(1).getText().then(function (txt) {
+                console.log("1st col value" + txt);
+                if (txt == '8 + 4') {
+                    cell.get(2).getText().then(function (val) {
+                        console.log("value is " + val);
+                    })
+                    //browser.sleep(20000);
+                }
+            })
+        })
     });
 });
